@@ -1,5 +1,4 @@
 import time
-import uuid
 
 import jwt
 from jwt.utils import force_bytes
