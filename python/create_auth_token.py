@@ -6,10 +6,10 @@ import requests
 from cryptography.hazmat.backends import default_backend
 from cryptography.hazmat.primitives.serialization import load_pem_private_key
 
-#Get API details from https://developers.high-mobility.com/api_keys or https://code.mercedes-benz-challenge.com/api_keys
+# Get API details
 ACCOUNT_API_CONFIG = {
 	'version': 2,
-	'base_url': 'https://developers.high-mobility.com/api/v1',
+	'base_url': 'https://sandbox.api.high-mobility.com/v1',
 	'api_key': '6456a189-7c39-4343-b02a-3ee4c3a63142',
          'private_key': """
 -----BEGIN EC PRIVATE KEY-----
