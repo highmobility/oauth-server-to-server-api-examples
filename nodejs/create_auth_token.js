@@ -2,10 +2,10 @@ var fs = require('fs')
 var jwt = require('jsonwebtoken')
 var request = require('request');
 
-//Get API details from https://developers.high-mobility.com/api_keys or https://code.mercedes-benz-challenge.com/api_keys
+// Get API details
 var ACCOUNT_API_CONFIG = {
     version: 2,
-    base_url: 'https://developers.high-mobility.com/api/v1',
+    base_url: 'https://sandbox.api.high-mobility.com/v1',
     api_key: '6456a189-7c39-4343-b02a-3ee4c3a63142',
     private_key: "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIEYhNYsWg+Bc8Zt7d9IjKjSeQ+O4NiGaBbjP2eIOMF+ToAoGCCqGSM49\nAwEHoUQDQgAEeCm3pl4WpevWJw/fO0cCjwh2pntgw3Xw7TG6Frrhep/y3mvU18Ks\nwcCucERfkbY9AkPeTXseFC7DsKsexrMk2A==\n-----END EC PRIVATE KEY-----\n\n"
 }
