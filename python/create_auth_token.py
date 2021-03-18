@@ -8,7 +8,7 @@ from cryptography.hazmat.primitives.serialization import load_pem_private_key
 
 # Get API details
 ACCOUNT_API_CONFIG = {
-	'version': 2,
+	'version': 1,
 	'base_url': 'https://sandbox.api.high-mobility.com/v1',
 	'api_key': '6456a189-7c39-4343-b02a-3ee4c3a63142',
          'private_key': """
@@ -24,6 +24,7 @@ jwt_payload = {
     'ver': ACCOUNT_API_CONFIG['version'],
     'iss': ACCOUNT_API_CONFIG['api_key'],
     'aud': ACCOUNT_API_CONFIG['base_url'],
+    'jti': str(uuid.uuid4()),
     'iat': int(time.time()),
 }
 
