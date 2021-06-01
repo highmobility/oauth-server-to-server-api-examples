@@ -4,6 +4,7 @@
   "dependencies": {},
   "devDependencies": {
     "jsonwebtoken": "^7.4.1",
-    "request": "^2.81.0"
+    "request": "^2.81.0",
+    "uuid4": "^2.0.2"
   }
 }
