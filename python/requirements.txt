@@ -1,4 +1,4 @@
 PyJWT==1.7.1
 requests==2.20.0
-cryptography==3.3.2
+cryptography==39.0.1
 uuid==1.30
