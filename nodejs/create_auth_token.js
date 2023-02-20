@@ -5,7 +5,7 @@ var request = require('request');
 
 // Get API details
 var ACCOUNT_API_CONFIG = {
-    version: 1,
+    version: 2,
     base_url: 'https://sandbox.api.high-mobility.com/v1',
     api_key: '6456a189-7c39-4343-b02a-3ee4c3a63142',
     private_key: "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIEYhNYsWg+Bc8Zt7d9IjKjSeQ+O4NiGaBbjP2eIOMF+ToAoGCCqGSM49\nAwEHoUQDQgAEeCm3pl4WpevWJw/fO0cCjwh2pntgw3Xw7TG6Frrhep/y3mvU18Ks\nwcCucERfkbY9AkPeTXseFC7DsKsexrMk2A==\n-----END EC PRIVATE KEY-----\n\n"
