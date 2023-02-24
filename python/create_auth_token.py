@@ -21,7 +21,7 @@ wcCucERfkbY9AkPeTXseFC7DsKsexrMk2A==
 }
 
 jwt_payload = {
-    'ver': ACCOUNT_API_CONFIG['version'],
+    'ver': 2,
     'iss': ACCOUNT_API_CONFIG['api_key'],
     'aud': ACCOUNT_API_CONFIG['base_url'],
     'jti': str(uuid.uuid4()),
