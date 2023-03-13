@@ -14,7 +14,7 @@ var iat = Math.round(Date.now()/1000);
 
 var priv = Buffer.from(ACCOUNT_API_CONFIG.private_key, 'utf8')
 
-var payload = { 'ver': 2, iss: ACCOUNT_API_CONFIG.api_key, 'aud': ACCOUNT_API_CONFIG.base_url, 'iat': iat, 'jti': uuid4() };
+var payload = { 'ver': ACCOUNT_API_CONFIG.version, iss: ACCOUNT_API_CONFIG.api_key, 'aud': ACCOUNT_API_CONFIG.base_url, 'iat': iat, 'jti': uuid4() };
 var token = jwt.sign(payload, priv, { algorithm: 'ES256' })
 
 request.post(
