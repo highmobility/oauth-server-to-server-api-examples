@@ -1,6 +1,6 @@
-# H-M Service Account API
+# H-M OAuth Server-to-Server API
 
-The Service Account API allows you to create and manage your resources from your own cloud infrastructure.
+The OAuth API allows you to create and manage your resources from your own cloud infrastructure.
 
 Once the administrator of your organisation creates an [API key](https://developers.high-mobility.com/api_keys),
 our system generates a cryptographic key-pair according to the [JSON Web Token (JWT) standard](https://jwt.io/).
